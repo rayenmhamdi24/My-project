@@ -19,12 +19,11 @@ function makeProfil(name,certificates,email,facebook,tiktok,hobbies){
 
 
 $("body").append(
- `<div>${profil.name}</div>
+ `<div ${profil.name}</div>
   <div> ${profil.certificates} </div>
   <div><a href=" ${profil.email} ">Email me </a></div>
   <div><a href="${ profil.facebook}">Facebook </a></div>
-   
-  <div><a href=${ profil.tiktok}>TikTok</a></div>
+   <div><a href=${ profil.tiktok}>TikTok</a></div>
   <div>${profil.hobbies} </div>`)
    
 
